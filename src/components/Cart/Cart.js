@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,10 +11,22 @@ const Cart = props => {
   const increaseCount20 = () => setCount(20);
   const increaseCount30 = () => setCount(30);
   const increaseCount40 = () => setCount(40);
-  // const handleClick = () => {
-  //   console.log('btn-break');
-  // };
+  // console.log(count);
+  localStorage.setItem('Break Time', JSON.stringify(count));
 
+  const getStoredCount = () => {
+    let count = {};
+
+    const storedCount = localStorage.getItem('break-field');
+    if (storedCount) {
+      count = JSON.parse(storedCount);
+    }
+    return count;
+  };
+  useEffect(() => {
+    const storedCount = getStoredCount();
+    console.log(storedCount);
+  }, []);
   let total = 0;
   for (const product of cart) {
     total = total + product.timeRequired;
