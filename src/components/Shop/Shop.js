@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import Product from '../Product/Product';
 import './Shop.css';
 
@@ -17,7 +20,7 @@ const Shop = () => {
     const newCart = [...cart, product];
     setCart(newCart);
   };
-
+  const notify = () => toast('Wow Activity Completed Successfully!');
   return (
     <div className='shop-container'>
       <div className='product-container'>
@@ -52,7 +55,10 @@ const Shop = () => {
         <h2>Exercise Details</h2>
         <h3>Exercise time : {cart.length}</h3>
         <h3>Break time :</h3>
-        <button className='btn-active'>Activity Completed</button>
+        <button onClick={notify} className='btn-active'>
+          Activity Completed
+        </button>
+        <ToastContainer />
       </div>
     </div>
   );
