@@ -11,6 +11,7 @@
 }
 .menu a {
   text-decoration: none;
+  color: black;
 }
 .menu {
   align-items: center;
@@ -18,4 +19,7 @@
   margin-left: 700px;
   gap: 30px;
   font-weight: 500;
+}
+.menu a:hover {
+  color: red;
 }
