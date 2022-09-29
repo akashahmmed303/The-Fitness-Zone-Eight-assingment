@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  background-color: orange;
+}
+
+.header img {
+  width: 100px;
+  height: 90px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
