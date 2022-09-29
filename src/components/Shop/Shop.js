@@ -51,7 +51,14 @@ const Shop = () => {
           <p>Height</p>
           <p>Age</p>
         </div>
-        <h4>Order summary</h4>
+        <h2>Add A Break</h2>
+        <div className='btn-break'>
+          <button>10s</button>
+          <button>20s</button>
+          <button>30s</button>
+          <button>40s</button>
+        </div>
+
         <h2>Exercise Details</h2>
         <h3>Exercise time : {cart.length}</h3>
         <h3>Break time :</h3>
