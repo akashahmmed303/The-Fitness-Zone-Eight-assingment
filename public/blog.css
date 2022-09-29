@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+.title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  background-color: yellow;
+  border-radius: 18px;
+  padding: 15px;
+}
+.Q {
+  border: 5px solid salmon;
+  gap: 15px;
+  border-radius: 25px;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+.Q h1 {
+  background-color: darkturquoise;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.Q h2 {
+  margin-bottom: 70px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 25px;
+}
