@@ -9,6 +9,11 @@ const Header = () => {
         alt=''
       />
       <h1>The Fitness Zone</h1>
+      <div className='menu'>
+        <a href='/home'>Home</a>
+        <a href='/blog'>Blog</a>
+        <a href='/about us'>About us</a>
+      </div>
     </div>
   );
 };
