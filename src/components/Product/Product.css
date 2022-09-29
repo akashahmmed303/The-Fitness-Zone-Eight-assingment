@@ -4,6 +4,7 @@
   border-radius: 15px;
   padding: 15px;
   background-color: white;
+  position: relative;
 }
 
 .product img {
@@ -11,9 +12,29 @@
   height: 186px;
   border: 1px solid blue;
   border-radius: 15px;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
+}
+
+.product-info {
+  margin: 0 14px;
+}
+.p {
+  font-weight: 700;
+  margin-top: -5px;
 }
 .product-name {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+.btn-cart {
+  width: 85%;
+  border: none;
+  background-color: deepskyblue;
+  border-radius: 15px;
+  margin-top: 15px;
+  position: absolute;
+}
+.btn-cart:hover {
+  background-color: orange;
 }
