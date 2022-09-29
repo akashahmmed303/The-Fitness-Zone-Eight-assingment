@@ -10,7 +10,7 @@ const Product = props => {
         <h6 className='product-name'>{name}</h6>
         <p>{para}</p>
         <p className='p'>For Age : {forAge}</p>
-        <p className='p'>Time required : {timeRequired}</p>
+        <p className='p'>Time required : {timeRequired}s</p>
       </div>
       <button
         onClick={() => props.handleAddToCart(props.product)}

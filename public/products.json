@@ -6,7 +6,7 @@
     "para": "Quick Total Body Power Yoga to Build Strength and Release Tension",
     "price": 420,
     "forAge": "20-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 3725,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1082-quick-total-body-power-yoga-a26d.jpg"
   },
@@ -17,7 +17,7 @@
     "name": "Bent-over Row",
     "price": 196,
     "forAge": "18-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 4355,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1111-lower-body-strength-with-hiit-finisher-838a.jpg"
   },
@@ -28,7 +28,7 @@
     "name": "Squats",
     "price": 245,
     "forAge": "21-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 3972,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1118-low-impact-cardio-and-core-a87d.jpg"
   },
@@ -39,7 +39,7 @@
     "para": "A sweaty low-impact HIIT workout with a fun remove-one.",
     "price": 229,
     "forAge": "20-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 1764,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1127-pilates-for-the-arms-and-abs-966f.jpg"
   },
@@ -50,7 +50,7 @@
     "para": "This fast-paced bodyweight workout will test your upper.",
     "price": 287,
     "forAge": "20-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 799,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1101-cardio-strength-and-core-combo-9e73.jpg"
   },
@@ -60,7 +60,7 @@
     "para": "Quick Total Body Power Yoga to Build Strength and Release Tension",
     "price": 138,
     "forAge": "23-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 4372,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1097-mellow-beginner-cardio-8f65.jpg"
   },
@@ -71,7 +71,7 @@
     "para": "ored with traditional core work? There nothing boring about our latest core activation workout! ",
     "price": 226,
     "forAge": "22-30",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 2870,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1097-mellow-beginner-cardio-8f65.jpg"
   },
@@ -82,7 +82,7 @@
     "para": "Target and tone your lower body with this challenging Pilates and Barre workout! ",
     "price": 319,
     "forAge": "20-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 1360,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1119-kettlebell-cardio-and-strength-b325.jpg"
   },
@@ -93,7 +93,7 @@
     "para": "A sweaty low-impact HIIT workout with a fun remove-one style format — no equipment needed!",
     "price": 260,
     "forAge": "20-25",
-    "timeRequired": "30s",
+    "timeRequired": 30,
     "timeRequiredCount": 1976,
     "img": "https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1124-lower-body-pilates-and-barre-bd6c.jpg"
   }
