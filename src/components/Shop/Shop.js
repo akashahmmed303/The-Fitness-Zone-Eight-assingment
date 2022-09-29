@@ -30,9 +30,29 @@ const Shop = () => {
         ))}
       </div>
       <div className='cart-container'>
+        <div className='my-info'>
+          <h2>Akash Ahmmed</h2>
+          <p>
+            <b>Jashore, Bangladesh</b>
+          </p>
+        </div>
+        <div className='age-info'>
+          <h1>
+            75<small>kg</small>
+          </h1>
+          <h1>5.7</h1>
+          <h1>
+            18<small>yrs</small>
+          </h1>
+          <p>Weight</p>
+          <p>Height</p>
+          <p>Age</p>
+        </div>
         <h4>Order summary</h4>
         <h2>Exercise Details</h2>
         <h3>Exercise time : {cart.length}</h3>
+        <h3>Break time :</h3>
+        <button className='btn-active'>Activity Completed</button>
       </div>
     </div>
   );
