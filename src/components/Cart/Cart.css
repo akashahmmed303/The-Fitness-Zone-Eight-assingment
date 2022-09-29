@@ -1,0 +1,71 @@
+.cart {
+  position: sticky;
+
+  top: 15px;
+}
+
+.my-info h2 {
+  margin-bottom: -15px;
+}
+.age-info {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: cornsilk;
+  padding-left: 10px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.age-info p {
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.break-container {
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 10px;
+  background-color: gainsboro;
+  margin-right: 10px;
+  height: 60px;
+  align-items: center;
+}
+.btn-break button {
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.btn-break button:hover {
+  background-color: red;
+}
+.btn-active {
+  width: 90%;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  background-color: purple;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.btn-active:hover {
+  background-color: orangered;
+}
+.exercise-field {
+  margin-right: 15px;
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.break-field {
+  margin-right: 15px;
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 15px;
+}

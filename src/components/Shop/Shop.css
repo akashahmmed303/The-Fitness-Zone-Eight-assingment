@@ -14,10 +14,10 @@
   padding-left: 30px;
   background-color: white;
 }
-.my-info h2 {
+/* .my-info h2 {
   margin-bottom: -15px;
-}
-.age-info {
+} */
+/* .age-info {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -29,8 +29,8 @@
 .age-info p {
   margin-top: -15px;
   margin-left: 5px;
-}
-.btn-active {
+} */
+/* .btn-active {
   width: 90%;
   height: 50px;
   border: none;
@@ -44,8 +44,8 @@
 
 .btn-active:hover {
   background-color: orangered;
-}
-.btn-break button {
+} */
+/* .btn-break button {
   border: none;
   border-radius: 15px;
   font-size: 25px;
@@ -55,7 +55,7 @@
 }
 .btn-break button:hover {
   background-color: red;
-}
+} */
 @media screen and(max-width: 1100px) {
   .product-container {
     grid-template-columns: repeat(2, 1fr);
