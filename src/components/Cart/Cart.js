@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './Cart.css';
 const Cart = props => {
   const { cart } = props;
+  const [count, setCount] = useState(0);
 
+  const increaseCount = () => setCount(10);
+  const increaseCount20 = () => setCount(20);
+  const increaseCount30 = () => setCount(30);
+  const increaseCount40 = () => setCount(40);
   // const handleClick = () => {
   //   console.log('btn-break');
   // };
@@ -40,16 +45,16 @@ const Cart = props => {
       <h2>Add A Break</h2>
       <div className='break-container'>
         <div className='btn-break'>
-          <button>10s</button>
-          <button>20s</button>
-          <button>30s</button>
-          <button>40s</button>
+          <button onClick={increaseCount}>10s</button>
+          <button onClick={increaseCount20}>20s</button>
+          <button onClick={increaseCount30}>30s</button>
+          <button onClick={increaseCount40}>40s</button>
         </div>
       </div>
 
       <h2>Exercise Details</h2>
       <h3 className='exercise-field'>Exercise time : {total} seconds</h3>
-      <h3 className='break-field'>Break time :</h3>
+      <h3 className='break-field'>Break time : {count} seconds </h3>
       <button onClick={notify} className='btn-active'>
         Activity Completed
       </button>
