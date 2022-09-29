@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Cart from '../Cart/Cart';
 
 import Product from '../Product/Product';
 import './Shop.css';
@@ -33,6 +34,7 @@ const Shop = () => {
         ))}
       </div>
       <div className='cart-container'>
+        <Cart cart={cart}></Cart>
         <div className='my-info'>
           <h2>Akash Ahmmed</h2>
           <p>
