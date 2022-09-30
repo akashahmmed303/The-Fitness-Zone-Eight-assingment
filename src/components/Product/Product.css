@@ -40,10 +40,3 @@
 .btn-cart:hover {
   background-color: orange;
 }
-/* @media screen and(max-width: 768px) {
-  .shop-container {
-    display: flex;
-    background-color: aqua;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-} */

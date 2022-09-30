@@ -15,7 +15,7 @@
   background-color: white;
 }
 
-/* for mobile devices */
+/* for mobile devices  */
 @media screen and (max-width: 768px) {
   .shop-container {
     display: grid;
@@ -30,7 +30,7 @@
   .cart-container {
     display: grid;
     grid-template-columns: 1fr;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-bottom: 50px;
     border-radius: 25px;
     padding-top: 25px;
