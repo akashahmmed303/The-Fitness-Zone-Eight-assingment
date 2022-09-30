@@ -10,7 +10,6 @@
 .product img {
   width: 286px;
   height: 186px;
-  border: 1px solid blue;
   border-radius: 15px;
   margin-bottom: -15px;
 }
@@ -41,3 +40,10 @@
 .btn-cart:hover {
   background-color: orange;
 }
+/* @media screen and(max-width: 768px) {
+  .shop-container {
+    display: flex;
+    background-color: aqua;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */
